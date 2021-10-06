@@ -198,10 +198,17 @@ blockquote {
   }
 }
 
-@media (max-width: 600px) {
+@media (min-width: 400px) and (max-width: 600px) {
   #infinite {
     background-position: center 0px;
 		min-height: 1200px;
+  }
+}
+
+@media (max-width: 400px) {
+  #infinite {
+    background-position: center 0px;
+		min-height: 1300px;
   }
 }
 
