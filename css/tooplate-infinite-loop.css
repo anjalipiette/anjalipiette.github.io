@@ -165,7 +165,7 @@ blockquote {
 @media (min-width: 800px) and (max-width: 1300px) {
   #infinite {
     background-position: center 0px;
-		min-height: 2000px;
+		min-height: 1000px;
   }
 }
 
