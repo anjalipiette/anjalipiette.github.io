@@ -144,7 +144,7 @@ blockquote {
 
 /* Hero */
 
-#infinite {
+#home {
 	background-color: #222;
   background-image: url(../img/space5.jpg);
   background-repeat: no-repeat;
@@ -156,35 +156,35 @@ blockquote {
 
 
 @media (min-height: 830px) {
-  #infinite {
+  #home {
     background-position: center -100px;
   }
 }
 
 
 @media (min-width: 1000px) and (max-width: 1300px) {
-  #infinite {
+  #home {
     background-position: center 0px;
 		min-height: 1000px;
   }
 }
 
 @media (min-width: 800px) and (max-width: 1000px) {
-  #infinite {
+  #home {
     background-position: center 0px;
 		min-height: 1100px;
   }
 }
 
 @media (min-width: 600px) and (max-width: 800px) {
-  #infinite {
+  #home {
     background-position: center 0px;
 		min-height: 1300px;
   }
 }
 
 @media (max-width: 600px) {
-  #infinite {
+  #home {
     background-position: center 0px;
 		min-height: 1700px;
   }
@@ -275,7 +275,7 @@ blockquote {
 }
 
 /* Testimonials */
-#testimonials {
+#publications {
   color: 222;
   background-size: cover;
   background-repeat: no-repeat;
@@ -284,7 +284,7 @@ blockquote {
 }
 
 @media (max-width: 991px) {
-  #testimonials {
+  #publications {
   }
 }
 
