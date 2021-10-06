@@ -179,7 +179,7 @@ blockquote {
 @media (max-width: 600px) {
   #infinite {
     background-position: center 0px;
-		min-height: 1200px;
+		min-height: 1000px;
   }
 }
 
