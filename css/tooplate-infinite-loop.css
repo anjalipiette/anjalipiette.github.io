@@ -85,12 +85,12 @@ blockquote {
 }
 
 .tm-navbar.scroll {
-  background-color: white;
+  background-color: rgba(0,0,0,0.5);
   border-bottom: 1px solid #e9ecef;
 }
 
 .navbar-brand {
-  color: white;
+  color: rgba(0,0,0,0.5);
   font-size: 1.4rem;
   font-weight: bold;
 }
@@ -149,8 +149,8 @@ blockquote {
   background-image: url(../img/space5.jpg);
   background-repeat: no-repeat;
 	background-size: 100% auto;
-  height: 80vw;
-  min-height: 80vw;
+  height: 65vmax;
+  min-height: 65vmax;
   position: relative;
 }
 
@@ -162,33 +162,6 @@ blockquote {
 }
 
 
-@media (min-width: 1000px) and (max-width: 1300px) {
-  #home {
-    background-position: center 0px;
-		min-height: 80vw;
-  }
-}
-
-@media (min-width: 800px) and (max-width: 1000px) {
-  #home {
-    background-position: center 0px;
-		min-height: 80vw;
-  }
-}
-
-@media (min-width: 600px) and (max-width: 800px) {
-  #home {
-    background-position: center 0px;
-		min-height: 80vw;
-  }
-}
-
-@media (max-width: 600px) {
-  #home {
-    background-position: center 0px;
-		min-height: 80vw;
-  }
-}
 
 
 
@@ -330,9 +303,8 @@ blockquote {
 /* Work */
 
 .tm-section-desc {
-  max-width: 650px;
+  max-width: 90vw;
   width: 100%;
-  font-size: 0.9rem;
 }
 
 .tm-gallery-container {
@@ -525,7 +497,7 @@ figure.effect-honey:hover h2 i {
 	background-size: 100% auto;
   background-position: center;
   background-repeat: no-repeat;
-  min-height: 980px;
+  min-height: 50vmax;
   position: relative;
   padding-bottom: 50px;
   padding-top: 100px;
