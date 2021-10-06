@@ -172,21 +172,21 @@ blockquote {
 @media (min-width: 800px) and (max-width: 1000px) {
   #home {
     background-position: center 0px;
-		min-height: 100px;
+		min-height: 80vw;
   }
 }
 
 @media (min-width: 600px) and (max-width: 800px) {
   #home {
     background-position: center 0px;
-		min-height: 100px;
+		min-height: 180vw;
   }
 }
 
 @media (max-width: 600px) {
   #home {
     background-position: center 0px;
-		min-height: 100px;
+		min-height: 80vw;
   }
 }
 
