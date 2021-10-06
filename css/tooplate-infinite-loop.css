@@ -80,7 +80,7 @@ blockquote {
   position: fixed;
   width: 100%;
   z-index: 1000;
-  background-color: transparent;
+  background-color: rgba(0,0,0,0.5);
   transition: all 0.3s ease;
 }
 
@@ -149,8 +149,8 @@ blockquote {
   background-image: url(../img/space5.jpg);
   background-repeat: no-repeat;
 	background-size: 100% auto;
-  height: 100vh;
-  min-height: 800px;
+  height: 80vw;
+  min-height: 80vw;
   position: relative;
 }
 
@@ -165,28 +165,28 @@ blockquote {
 @media (min-width: 1000px) and (max-width: 1300px) {
   #home {
     background-position: center 0px;
-		min-height: 1000px;
+		min-height: 80vw;
   }
 }
 
 @media (min-width: 800px) and (max-width: 1000px) {
   #home {
     background-position: center 0px;
-		min-height: 1100px;
+		min-height: 100px;
   }
 }
 
 @media (min-width: 600px) and (max-width: 800px) {
   #home {
     background-position: center 0px;
-		min-height: 1300px;
+		min-height: 100px;
   }
 }
 
 @media (max-width: 600px) {
   #home {
     background-position: center 0px;
-		min-height: 1700px;
+		min-height: 100px;
   }
 }
 
