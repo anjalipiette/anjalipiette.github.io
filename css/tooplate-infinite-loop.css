@@ -172,14 +172,14 @@ blockquote {
 @media (min-width: 600px) and (max-width: 800px) {
   #infinite {
     background-position: center 0px;
-		min-height: 1800px;
+		min-height: 2000px;
   }
 }
 
 @media (max-width: 600px) {
   #infinite {
     background-position: center 0px;
-		min-height: 2000px;
+		min-height: 2500px;
   }
 }
 
