@@ -150,7 +150,7 @@ blockquote {
   background-repeat: no-repeat;
 	background-size: 100% auto;
   height: 100vh;
-  min-height: 1500px;
+  min-height: 800px;
   position: relative;
 }
 
@@ -165,21 +165,21 @@ blockquote {
 @media (min-width: 800px) and (max-width: 1300px) {
   #infinite {
     background-position: center 0px;
-		min-height: 1600px;
+		min-height: 1000px;
   }
 }
 
 @media (min-width: 600px) and (max-width: 800px) {
   #infinite {
     background-position: center 0px;
-		min-height: 2000px;
+		min-height: 1200px;
   }
 }
 
 @media (max-width: 600px) {
   #infinite {
     background-position: center 0px;
-		min-height: 2500px;
+		min-height: 1500px;
   }
 }
 
